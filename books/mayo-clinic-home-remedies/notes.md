@@ -1,0 +1,107 @@
+# 拆书 · 梅奥诊所家庭疗法
+
+> Mayo Clinic Book of Home Remedies, 2nd Edition · Cindy A. Kermott, M.D., M.P.H.
+> 副标题：What to do for the Most Common Health Problems
+
+<div class="callout">
+
+**一句话读完这本书**
+
+这不是一本读的书，是**一本查的书**。它的价值不在观点，在**判断边界**——什么时候可以自己处理，什么时候必须去医院。
+
+</div>
+
+## 这本书怎么用
+
+全书按**症状的英文首字母 A–Z** 排列，大约一百多个条目。每一条的骨架都一样：
+
+```mermaid
+flowchart TD
+    A["一个症状<br/>例如 Back pain"] --> B["这是什么<br/>成因、类型、常见诱因"]
+    B --> C["Medical help<br/>什么情况必须就医"]
+    B --> D["Home remedies<br/>在家能做的具体动作"]
+    D --> E["往往还有<br/>Prevention 预防"]
+```
+
+**最关键的是中间那一段**："Medical help"——每条都明确写了危险信号。
+
+大多数人用这本书的错误方式，是直接跳到 "Home remedies" 抄方法。但书的设计意图正好相反：**先判断该不该自己处理，再谈怎么处理**。
+
+## 三个区块分别是什么
+
+| 区块 | 作用 | 怎么读 |
+|---|---|---|
+| **症状介绍** | 这是什么、为什么会这样、有哪些类型 | 花两分钟读完，避免误判 |
+| **Medical help** | 红旗信号，出现就该看医生 | **每次都要读** |
+| **Home remedies** | 具体做法，通常 5–10 条 | 挑能执行的 |
+
+书里有些条目还会加 **Prevention**（预防）和 **Note of caution**（注意事项），后者尤其别跳。
+
+## 条目分类速查
+
+书是按字母排的，但按身体系统找更快：
+
+**呼吸与耳鼻喉**
+
+Allergies（过敏）· Asthma（哮喘）· Bronchitis（支气管炎）· Common cold（感冒）· Cough（咳嗽）· Croup（哮吼）· Ear infection（耳部感染）· Ear ringing（耳鸣）· Earwax blockage（耳垢堵塞）· Airplane ear（飞机耳）
+
+**皮肤与外伤**
+
+Acne（痤疮）· Athlete's foot（脚气）· Blisters（水疱）· Boils（疖）· Bruises（瘀伤）· Burns（烧烫伤）· Cold sores（唇疱疹）· Canker sores（口腔溃疡）· Dandruff（头皮屑）· Dry skin（皮肤干燥）· Eczema（湿疹）· Diaper rash（尿布疹）· Corns and calluses（鸡眼与老茧）· Cuts and scrapes（割伤擦伤）· Black eye（黑眼圈/眼周淤血）
+
+**骨骼肌肉与疼痛**
+
+Arthritis（关节炎）· Back pain（背痛）· Bursitis（滑囊炎）· Carpal tunnel syndrome（腕管综合征）· Chronic pain（慢性疼痛）· Cramps and charley horses（抽筋）· Elbow pain（肘痛）· Fibromyalgia（纤维肌痛）
+
+**消化与代谢**
+
+Constipation（便秘）· Diarrhea（腹泻）· Diabetes（糖尿病）· Bad breath（口臭）
+
+**儿童相关**
+
+Colic（肠绞痛）· Bed-wetting（尿床）· Croup（哮吼）· Diaper rash（尿布疹）· Fever in children（儿童发热）
+
+**其他常见**
+
+Bladder infection（膀胱感染）· Breast tenderness（乳房胀痛）· Depression（抑郁）· Dizziness（眩晕）· Dry eyes（干眼）· Dry mouth（口干）· Enlarged prostate（前列腺肥大）· Eye scratch（眼睛划伤）· Eyestrain（视疲劳）· Eye sty（麦粒肿）· Fatigue（疲劳）· Fever（发热）· Bedbugs（臭虫）· Blisters
+
+## 这本书真正的知识在哪
+
+不在"怎么办"，在**"什么时候不该自己办"**。
+
+每个条目的 Medical help 段落，本质上是在告诉你：**这个症状在什么情况下不再是"家庭问题"，而是"医疗问题"**。常见的红旗信号大致是这几类：
+
+- 持续高烧不退，或伴随意识改变
+- 疼痛剧烈且突然发作，或伴随麻木无力
+- 伤口感染迹象（红肿扩散、化脓、发热）
+- 症状持续超过预期时间仍无改善
+- 婴幼儿、孕妇、老年人、免疫力低下者的任何异常
+
+书里每条会给出更具体的阈值，**别用上面这份概览替代原文**。
+
+## 一个值得学的写法
+
+这本书的条目结构，其实是一个可直接复用的模板：
+
+> **是什么** → **什么时候危险** → **能做什么** → **怎么预防**
+
+任何健康类信息都该按这个顺序组织。只看第三段，等于跳过了最重要的过滤层。
+
+## 使用建议
+
+1. **先查书末索引**，别从第一页翻——它是工具书
+2. **遇到不确定的症状，直接找 Medical help 那段**，读完再决定
+3. **别把 Home remedies 当处方**。书里明确说明这些是辅助措施，不替代诊疗
+4. **儿童条目单独看**——剂量、体温阈值、危险信号都和成人不同
+
+## 一点提醒
+
+这是**美国医疗体系下的家庭指南**，涉及就医的部分（什么时候去急诊、找哪类医生）参考的是美国的分级方式。在国内使用时，**判断标准可以参考，"去哪看"需要换算成本地习惯**。
+
+另外，第二版第一版之间隔了几年，部分药物建议可能已经过时——涉及具体药品时，请以医生和说明书为准。
+
+---
+
+原书全文见 [book.md](book.md)，49 张插图在 [images/](images/)。
+
+**医疗免责**：本篇是读书笔记，不构成医疗建议。任何症状的处理，请咨询医生。
