@@ -332,3 +332,96 @@ footer {
   .layout { grid-template-columns: 1fr; max-width: none; }
   .mermaid { break-inside: avoid; }
 }
+
+/* ---------- full-text reader ---------- */
+body.reader { --reader-size: 18px; }
+
+#progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: var(--accent);
+  z-index: 20;
+  transition: width .1s linear;
+}
+
+.counter {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-right: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.rbtn {
+  font: inherit;
+  font-size: 13px;
+  padding: 4px 10px;
+  margin-left: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  color: var(--text-dim);
+  border-radius: 7px;
+  cursor: pointer;
+}
+.rbtn:hover { color: var(--accent); border-color: var(--accent); }
+
+.reader .layout {
+  grid-template-columns: 260px minmax(0, 1fr);
+  max-width: 1180px;
+  gap: 48px;
+}
+
+.reader-toc { font-size: 13px; }
+.reader-toc ul { list-style: none; margin: 0; padding: 0; }
+.reader-toc li { margin: 1px 0; }
+.reader-toc a {
+  display: block;
+  padding: 4px 8px;
+  margin-left: -8px;
+  color: var(--text-dim);
+  text-decoration: none;
+  border-radius: 6px;
+  line-height: 1.35;
+}
+.reader-toc a:hover { color: var(--accent); background: var(--bg-soft); }
+
+.reader-content {
+  font-size: var(--reader-size);
+  line-height: 1.85;
+  max-width: 760px;
+}
+.reader-content h1 {
+  font-size: 1.45em;
+  margin: 2.2em 0 .6em;
+  padding-bottom: .3em;
+  border-bottom: 1px solid var(--line);
+}
+.reader-content h2 {
+  font-size: 1.15em;
+  margin: 1.8em 0 .5em;
+  padding: 0;
+  border: none;
+}
+.reader-content p { margin: .8em 0; }
+.reader-content img { margin: 1.2em auto; }
+.reader-content table { font-size: .82em; }
+
+@media (max-width: 880px) {
+  .reader .layout { grid-template-columns: 1fr; }
+  .reader-toc { display: none; }
+  body.toc-open .reader-toc {
+    display: block;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    max-height: 70vh;
+    overflow: auto;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    padding: 16px 20px;
+    z-index: 15;
+  }
+}

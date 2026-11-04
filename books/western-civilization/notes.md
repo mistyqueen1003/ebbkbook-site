@@ -112,3 +112,5 @@ flowchart TD
 ---
 
 原书全文见 [book.md](book.md)，481 张地图与插图在 [images/](images/)。这本高度依赖图版，建议对照原文看。
+
+**在线阅读器**：[read.html](read.html) —— 已修复分片顺序，带目录、进度条和字号调节。在浏览器里直接打开即可（同目录需有 `images/`）。
