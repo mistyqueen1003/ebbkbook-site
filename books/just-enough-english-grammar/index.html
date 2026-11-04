@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拆书 · Just Enough English Grammar Illustrated</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../index.html">&larr; 书库</a>
+  <span class="sep">/</span>
+  <span class="title">拆书 · Just Enough English Grammar Illustrated</span>
+  <span style="flex:1"></span>
+  
+</header>
+
+<div class="layout">
+  <aside id="toc"></aside>
+  <main id="content"></main>
+</div>
+
+<!-- 内容来源：notes.md。修改请改 notes.md，然后运行 tools/build.cmd 重新生成。 -->
+<script id="md" type="text/markdown">
+# 拆书 · Just Enough English Grammar Illustrated
+
+> Gabrielle Stobbe · 图解英语语法（够用就好）
+
+<div class="callout">
+
+**一句话读完这本书**
+
+英语语法只需要"够用"：**8 类词 + 每类的形式与用法**。这本书把每一条规则都配一张图，用画面代替术语。
+
+</div>
+
+## 这本书的编排逻辑
+
+它不按"从易到难"排，而按**词类**排——八章，一章一类词：
+
+```mermaid
+flowchart TD
+    W["English Grammar"] --> N["名词<br/>Nouns"]
+    W --> A["形容词<br/>Adjectives"]
+    W --> P["代词<br/>Pronouns"]
+    W --> V["动词<br/>Verbs"]
+    W --> D["副词<br/>Adverbs"]
+    W --> R["介词<br/>Prepositions"]
+    W --> C["连词<br/>Conjunctions"]
+    W --> I["感叹词<br/>Interjections"]
+```
+
+每章内部又是同一个套路：**PART ONE 讲形式（FORM），PART TWO 讲用法（USES）**。
+
+这个结构很值得学：先问"这个词**长什么样、怎么变**"，再问"它在句中**干什么活**"。两件事分开，就不会混。
+
+## 八类词速查
+
+| 词类 | 管什么 | 主要形式变化 | 最容易错的地方 |
+|---|---|---|---|
+| **名词** Nouns | 人、事、物 | 单复数、所有格 | 不规则复数（child→children）；不可数名词加不加 s |
+| **形容词** Adjectives | 修饰名词 | 比较级、最高级 | 长短词变形规则不同（bigger / more beautiful） |
+| **代词** Pronouns | 代替名词 | 主格/宾格/所有格 | I/me、he/him、its/it's |
+| **动词** Verbs | 动作、状态 | 时态、人称、数 | 第三人称单数加 s；不规则过去式 |
+| **副词** Adverbs | 修饰动词/形容词/副词 | -ly、比较级 | good→well；用形容词代替副词 |
+| **介词** Prepositions | 表关系（时间、地点、方向） | 不变 | in/on/at 的搭配；固定搭配要背 |
+| **连词** Conjunctions | 连接词、短语、句子 | 不变 | and/but/or 与 because/although 的层级不同 |
+| **感叹词** Interjections | 表达情绪 | 不变 | 书面语里少用 |
+
+## 怎么判断一个词是哪类
+
+书里的图解其实在训练一种直觉：**别问"这个词是什么词性"，问"它在句子里干什么活"**。
+
+```mermaid
+flowchart TD
+    S["看到一个词"] --> Q1{"它在指人、事、物吗？"}
+    Q1 -->|"是"| N["名词"]
+    Q1 -->|"否"| Q2{"它在描述另一个词吗？"}
+    Q2 -->|"描述名词"| A["形容词"]
+    Q2 -->|"描述动作/程度"| D["副词"]
+    Q2 -->|"都不是"| Q3{"它在表示动作或状态吗？"}
+    Q3 -->|"是"| V["动词"]
+    Q3 -->|"否"| Q4{"它在连接吗？"}
+    Q4 -->|"是"| C["连词"]
+    Q4 -->|"否"| O["介词 / 代词 / 感叹词"]
+```
+
+同一个词可以换岗。`book` 可以是名词（书），也可以是动词（预订）——判断依据永远是**它在句中的位置和功能**，不是它长什么样。
+
+## 动词为什么最难
+
+八类词里，动词的形式变化最多。它同时要承载三种信息：
+
+| 维度 | 英文表现 | 例子 |
+|---|---|---|
+| **时态**（什么时候） | 过去 / 现在 / 将来 | walk / walked / will walk |
+| **人称**（谁） | 第三人称单数特殊 | he walks（加 s） |
+| **数**（几个） | 单复数一致 | the dog runs / the dogs run |
+
+书里用 `NOW` / `YESTERDAY` 这样的时间轴来对比，正是为了把"时态"从抽象术语变成画面：
+
+```mermaid
+flowchart LR
+    P["过去<br/>Yesterday<br/>-ed / 不规则"] --> N["现在<br/>Now<br/>原形 / -s"]
+    N --> F["将来<br/>Tomorrow<br/>will + 原形"]
+```
+
+**规则动词 + 不规则动词**要分开对待：规则的变化有迹可循，不规则的高频词只能一个个记（go-went-gone、take-took-taken）。
+
+## 这本书最适合的用法
+
+它**不是**用来从头读到尾的。
+
+1. **当查表用**——写作时不确定某条规则，翻到对应词类那章
+2. **当纠错清单用**——先做章末练习，错了再回头看那一节
+3. **配合图片记忆**——这本书的价值在插画，别跳过图直接看文字
+
+书末有 **ANSWER KEY**（答案页），说明它设计成"练习—对答案—回查"的循环，而不是阅读材料。
+
+## 一个提醒
+
+"Just Enough" 是这本书的自我定位：**够用的语法**，不是完整语法体系。
+
+它覆盖的是日常写作和口语里最常踩的坑（时态一致、代词格、介词搭配）。如果你要应付考试里的从句嵌套、虚拟语气、倒装，这本书不够。
+
+**够用就好**，是它最大的优点，也是它的边界。
+
+## 和另外两本的关系
+
+- 想让孩子**爱上阅读** → 《打造儿童阅读环境》
+- 想把**语法规则**补上 → 这本
+- 想训练**判断力** → 《随机漫步的傻瓜》
+
+前两本一个管动机、一个管工具，第三本管思维方式，其实是一套。
+
+---
+
+原书全文见 `book.md`（仅私有仓库），421 张插图在 `images/`（仅私有仓库）。这本书**高度依赖插图**——建议对照原文看图，本笔记只是文字骨架。
+
+</script>
+
+<script src="../../assets/vendor/marked.min.js"></script>
+<script src="../../assets/vendor/mermaid.min.js"></script>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
